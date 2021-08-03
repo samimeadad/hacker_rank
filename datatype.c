@@ -10,30 +10,20 @@ int main()
     char s[] = "HackerRank ";
 
     // Declare second integer, double, and String variables.
-    int intVar = 0;
+    int secondInt = 0;
     double doubleVar = 0;
-    char str[50];
+    char str[100];
 
     int intSum = 0;
     double doubleSum = 0;
-    int index = 0;
 
     // Read and save an integer, double, and String to your variables.
-    printf("Enter the Integer Value: ");
-    scanf("%d", &intVar);
-
-    printf("Enter the double value: ");
+    scanf("%d", &secondInt);
     scanf("%lf", &doubleVar);
+    getchar();
+    fgets(str, sizeof(str), stdin);
 
-    printf("Enter the string: ");
-    // scanf("%s", &str);
-    while (str[index + 1] != '\0')
-    {
-        scanf("%c", &str[index]);
-        index++;
-    }
-
-    intSum = i + intVar;
+    intSum = i + secondInt;
     doubleSum = d + doubleVar;
     strcat(s, str);
 
