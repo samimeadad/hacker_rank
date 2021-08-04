@@ -1,5 +1,5 @@
 {
-  "C_Cpp_Runner.cCompilerPath": "/usr/lib/jvm/default/bin/gcc",
+  "C_Cpp_Runner.cCompilerPath": "usr/bin/gcc",
   "C_Cpp_Runner.cppCompilerPath": "/usr/lib/jvm/default/bin/g++",
   "C_Cpp_Runner.makePath": "/usr/lib/jvm/default/bin/make",
   "C_Cpp_Runner.warnings": [
